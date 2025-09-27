@@ -15,7 +15,7 @@ Peca fila[TAM_FILA];
 int inicio = 0, fim = 0, cont = 0;
 int contadorId = 0;
 
-// Gerar uma peça aleatória dentre as que estao ai
+// Gerar uma peça aleatória dentre as que estão aí
 Peca gerarPeca() {
     char tipos[] = {'I', 'O', 'T', 'L'};
     Peca p;
