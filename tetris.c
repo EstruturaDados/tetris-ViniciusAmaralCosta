@@ -4,18 +4,18 @@
 
 #define TAM_FILA 5
 
-// Struct que representa cada peça
+// struct que está representando cada peça
 typedef struct {
     char tipo; // 'I', 'O', 'T', 'L'
     int id;  
 } Peca;
 
-// Fila circular de peças
+// fila circular de peças
 Peca fila[TAM_FILA];
 int inicio = 0, fim = 0, cont = 0;
 int contadorId = 0;
 
-// Gerar uma peça aleatória dentre as que estão aí
+// gerar uma peça aleatória dentre as que estão aí
 Peca gerarPeca() {
     char tipos[] = {'I', 'O', 'T', 'L'};
     Peca p;
